@@ -44,6 +44,7 @@ class Slip173:
     HARMONY_ONE: str = "one"
     INJECTIVE: str = "inj"
     CANTO: str = "canto"
+    COREUM: str = "core"
     IRIS_NETWORK: str = "iaa"
     KAVA: str = "kava"
     LITECOIN_MAINNET: str = "ltc"

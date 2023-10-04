@@ -68,6 +68,7 @@ class Bip44Coins(BipCoins):
     ICON = auto()
     INJECTIVE = auto()
     CANTO = auto()
+    COREUM = auto()
     IRIS_NET = auto()
     KAVA = auto()
     KUSAMA_ED25519_SLIP = auto()

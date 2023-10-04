@@ -478,6 +478,14 @@ class CoinsConf:
         },
     )
 
+    # Configuration for Coreum
+    Coreum: CoinConf = CoinConf(
+        coin_name=CoinNames("Coreum", "CORE"),
+        params={
+            "addr_hrp": Slip173.COREUM,
+        },
+    )
+
     # Configuration for IRISnet
     IrisNet: CoinConf = CoinConf(
         coin_name=CoinNames("IRIS Network", "IRIS"),

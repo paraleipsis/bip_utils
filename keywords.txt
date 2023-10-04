@@ -67,6 +67,7 @@ huobi chain
 icon
 injective
 canto
+coreum
 iris
 irisnet
 kava

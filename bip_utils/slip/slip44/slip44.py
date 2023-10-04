@@ -69,6 +69,7 @@ class Slip44:
     BINANCE_CHAIN: int = 714
     VECHAIN: int = 818
     NEO: int = 888
+    COREUM: int = 990
     OKEX_CHAIN: int = 996
     HARMONY_ONE: int = 1023
     ONTOLOGY: int = 1024
