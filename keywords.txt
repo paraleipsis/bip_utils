@@ -66,6 +66,7 @@ harmony one
 huobi chain
 icon
 injective
+canto
 iris
 irisnet
 kava

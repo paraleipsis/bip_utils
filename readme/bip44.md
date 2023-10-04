@@ -14,74 +14,75 @@ They internally use the BIP-0032 classes for keys derivation, selecting the corr
 
 Supported coins enumerative for BIP-0044:
 
-|Coin|Main net enum|Test net enum|
-|---|---|---|
-|Akash Network|`Bip44Coins.AKASH_NETWORK`|-|
-|Algorand|`Bip44Coins.ALGORAND`|-|
-|Aptos|`Bip44Coins.APTOS`|-|
-|Avalanche C-Chain|`Bip44Coins.AVAX_C_CHAIN`|-|
-|Avalanche P-Chain|`Bip44Coins.AVAX_P_CHAIN`|-|
-|Avalanche X-Chain|`Bip44Coins.AVAX_X_CHAIN`|-|
-|Axelar|`Bip44Coins.AXELAR`|-|
-|Band Protocol|`Bip44Coins.BAND_PROTOCOL`|-|
-|Binance Chain|`Bip44Coins.BINANCE_CHAIN`|-|
-|Binance Smart Chain|`Bip44Coins.BINANCE_SMART_CHAIN`|-|
-|Bitcoin|`Bip44Coins.BITCOIN`|`Bip44Coins.BITCOIN_TESTNET`|
-|Bitcoin Cash|`Bip44Coins.BITCOIN_CASH`|`Bip44Coins.BITCOIN_CASH_TESTNET`|
-|[Bitcoin Cash SLP](https://reference.cash/protocol/slp)|`Bip44Coins.BITCOIN_CASH_SLP`|`Bip44Coins.BITCOIN_CASH_SLP_TESTNET`|
-|BitcoinSV|`Bip44Coins.BITCOIN_SV`|`Bip44Coins.BITCOIN_SV_TESTNET`|
-|Cardano Byron (Icarus)|`Bip44Coins.CARDANO_BYRON_ICARUS`, see [Cardano](https://github.com/ebellocchia/bip_utils/tree/master/readme/cardano.md)|-|
-|Cardano Byron (Ledger)|`Bip44Coins.CARDANO_BYRON_LEDGER`, see [Cardano](https://github.com/ebellocchia/bip_utils/tree/master/readme/cardano.md)|-|
-|Celo|`Bip44Coins.CELO`|-|
-|Certik|`Bip44Coins.CERTIK`|-|
-|Chihuahua|`Bip44Coins.CHIHUAHUA`|-|
-|Cosmos|`Bip44Coins.COSMOS`|-|
-|Dash|`Bip44Coins.DASH`|`Bip44Coins.DASH_TESTNET`|
-|Dogecoin|`Bip44Coins.DOGECOIN`|`Bip44Coins.DOGECOIN_TESTNET`|
-|eCash|`Bip44Coins.ECASH`|`Bip44Coins.ECASH_TESTNET`|
-|Elrond|`Bip44Coins.ELROND`|-|
-|EOS|`Bip44Coins.EOS`|-|
-|Ergo|`Bip44Coins.ERGO`|`Bip44Coins.ERGO_TESTNET`|
-|Ethereum|`Bip44Coins.ETHEREUM`|-|
-|Ethereum Classic|`Bip44Coins.ETHEREUM_CLASSIC`|-|
-|Fantom Opera|`Bip44Coins.FANTOM_OPERA`|-|
-|Filecoin|`Bip44Coins.FILECOIN`|-|
-|Harmony One (Cosmos address)|`Bip44Coins.HARMONY_ONE_ATOM`|-|
-|Harmony One (Ethereum address)|`Bip44Coins.HARMONY_ONE_ETH`|-|
-|Harmony One (Metamask address)|`Bip44Coins.HARMONY_ONE_METAMASK`|-|
-|Huobi Chain|`Bip44Coins.HUOBI_CHAIN`|-|
-|Icon|`Bip44Coins.ICON`|-|
-|Injective|`Bip44Coins.INJECTIVE`|-|
-|IRIS Network|`Bip44Coins.IRIS_NET`|-|
-|Kava|`Bip44Coins.KAVA`|-|
-|Kusama (ed25519 SLIP-0010)|`Bip44Coins.KUSAMA_ED25519_SLIP`|-|
-|Litecoin|`Bip44Coins.LITECOIN`|`Bip44Coins.LITECOIN_TESTNET`|
-|Monero (ed25519 SLIP-0010, please see the Monero paragraph below)|`Bip44Coins.MONERO_ED25519_SLIP`|-|
-|Monero (secp256k1, please see the Monero paragraph below)|`Bip44Coins.MONERO_SECP256K1`|-|
-|Nano|`Bip44Coins.NANO`|-|
-|Near Protocol|`Bip44Coins.NEAR_PROTOCOL`|-|
-|NEO|`Bip44Coins.NEO`|-|
-|OKEx Chain (Cosmos address)|`Bip44Coins.OKEX_CHAIN_ATOM`|-|
-|OKEx Chain (Ethereum address)|`Bip44Coins.OKEX_CHAIN_ETH`|-|
-|OKEx Chain (Old Cosmos address before mainnet upgrade)|`Bip44Coins.OKEX_CHAIN_ATOM_OLD`|-|
-|Ontology|`Bip44Coins.ONTOLOGY`|-|
-|Osmosis|`Bip44Coins.OSMOSIS`|-|
-|Pi Network|`Bip44Coins.PI_NETWORK`|-|
-|Polkadot (ed25519 SLIP-0010)|`Bip44Coins.POLKADOT_ED25519_SLIP`|-|
-|Polygon|`Bip44Coins.POLYGON`|-|
-|Ripple|`Bip44Coins.RIPPLE`|-|
-|Secret Network (old path)|`Bip44Coins.SECRET_NETWORK_OLD`|-|
-|Secret Network (new path)|`Bip44Coins.SECRET_NETWORK_NEW`|-|
-|Solana|`Bip44Coins.SOLANA`|-|
-|Stellar|`Bip44Coins.STELLAR`|-|
-|Terra|`Bip44Coins.TERRA`|-|
-|Tezos|`Bip44Coins.TEZOS`|-|
-|Theta Network|`Bip44Coins.THETA`|-|
-|Tron|`Bip44Coins.TRON`|-|
-|VeChain|`Bip44Coins.VECHAIN`|-|
-|Verge|`Bip44Coins.VERGE`|-|
-|Zcash|`Bip44Coins.ZCASH`|`Bip44Coins.ZCASH_TESTNET`|
-|Zilliqa|`Bip44Coins.ZILLIQA`|-|
+| Coin                                                              | Main net enum                                                                                                            |Test net enum|
+|-------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|---|
+| Akash Network                                                     | `Bip44Coins.AKASH_NETWORK`                                                                                               |-|
+| Algorand                                                          | `Bip44Coins.ALGORAND`                                                                                                    |-|
+| Aptos                                                             | `Bip44Coins.APTOS`                                                                                                       |-|
+| Avalanche C-Chain                                                 | `Bip44Coins.AVAX_C_CHAIN`                                                                                                |-|
+| Avalanche P-Chain                                                 | `Bip44Coins.AVAX_P_CHAIN`                                                                                                |-|
+| Avalanche X-Chain                                                 | `Bip44Coins.AVAX_X_CHAIN`                                                                                                |-|
+| Axelar                                                            | `Bip44Coins.AXELAR`                                                                                                      |-|
+| Band Protocol                                                     | `Bip44Coins.BAND_PROTOCOL`                                                                                               |-|
+| Binance Chain                                                     | `Bip44Coins.BINANCE_CHAIN`                                                                                               |-|
+| Binance Smart Chain                                               | `Bip44Coins.BINANCE_SMART_CHAIN`                                                                                         |-|
+| Bitcoin                                                           | `Bip44Coins.BITCOIN`                                                                                                     |`Bip44Coins.BITCOIN_TESTNET`|
+| Bitcoin Cash                                                      | `Bip44Coins.BITCOIN_CASH`                                                                                                |`Bip44Coins.BITCOIN_CASH_TESTNET`|
+| [Bitcoin Cash SLP](https://reference.cash/protocol/slp)           | `Bip44Coins.BITCOIN_CASH_SLP`                                                                                            |`Bip44Coins.BITCOIN_CASH_SLP_TESTNET`|
+| BitcoinSV                                                         | `Bip44Coins.BITCOIN_SV`                                                                                                  |`Bip44Coins.BITCOIN_SV_TESTNET`|
+| Cardano Byron (Icarus)                                            | `Bip44Coins.CARDANO_BYRON_ICARUS`, see [Cardano](https://github.com/ebellocchia/bip_utils/tree/master/readme/cardano.md) |-|
+| Cardano Byron (Ledger)                                            | `Bip44Coins.CARDANO_BYRON_LEDGER`, see [Cardano](https://github.com/ebellocchia/bip_utils/tree/master/readme/cardano.md) |-|
+| Celo                                                              | `Bip44Coins.CELO`                                                                                                        |-|
+| Certik                                                            | `Bip44Coins.CERTIK`                                                                                                      |-|
+| Chihuahua                                                         | `Bip44Coins.CHIHUAHUA`                                                                                                   |-|
+| Cosmos                                                            | `Bip44Coins.COSMOS`                                                                                                      |-|
+| Dash                                                              | `Bip44Coins.DASH`                                                                                                        |`Bip44Coins.DASH_TESTNET`|
+| Dogecoin                                                          | `Bip44Coins.DOGECOIN`                                                                                                    |`Bip44Coins.DOGECOIN_TESTNET`|
+| eCash                                                             | `Bip44Coins.ECASH`                                                                                                       |`Bip44Coins.ECASH_TESTNET`|
+| Elrond                                                            | `Bip44Coins.ELROND`                                                                                                      |-|
+| EOS                                                               | `Bip44Coins.EOS`                                                                                                         |-|
+| Ergo                                                              | `Bip44Coins.ERGO`                                                                                                        |`Bip44Coins.ERGO_TESTNET`|
+| Ethereum                                                          | `Bip44Coins.ETHEREUM`                                                                                                    |-|
+| Ethereum Classic                                                  | `Bip44Coins.ETHEREUM_CLASSIC`                                                                                            |-|
+| Fantom Opera                                                      | `Bip44Coins.FANTOM_OPERA`                                                                                                |-|
+| Filecoin                                                          | `Bip44Coins.FILECOIN`                                                                                                    |-|
+| Harmony One (Cosmos address)                                      | `Bip44Coins.HARMONY_ONE_ATOM`                                                                                            |-|
+| Harmony One (Ethereum address)                                    | `Bip44Coins.HARMONY_ONE_ETH`                                                                                             |-|
+| Harmony One (Metamask address)                                    | `Bip44Coins.HARMONY_ONE_METAMASK`                                                                                        |-|
+| Huobi Chain                                                       | `Bip44Coins.HUOBI_CHAIN`                                                                                                 |-|
+| Icon                                                              | `Bip44Coins.ICON`                                                                                                        |-|
+| Injective                                                         | `Bip44Coins.INJECTIVE`                                                                                                   |-|
+| Canto                                                             | `Bip44Coins.CANTO`                                                                                                       |-|
+| IRIS Network                                                      | `Bip44Coins.IRIS_NET`                                                                                                    |-|
+| Kava                                                              | `Bip44Coins.KAVA`                                                                                                        |-|
+| Kusama (ed25519 SLIP-0010)                                        | `Bip44Coins.KUSAMA_ED25519_SLIP`                                                                                         |-|
+| Litecoin                                                          | `Bip44Coins.LITECOIN`                                                                                                    |`Bip44Coins.LITECOIN_TESTNET`|
+| Monero (ed25519 SLIP-0010, please see the Monero paragraph below) | `Bip44Coins.MONERO_ED25519_SLIP`                                                                                         |-|
+| Monero (secp256k1, please see the Monero paragraph below)         | `Bip44Coins.MONERO_SECP256K1`                                                                                            |-|
+| Nano                                                              | `Bip44Coins.NANO`                                                                                                        |-|
+| Near Protocol                                                     | `Bip44Coins.NEAR_PROTOCOL`                                                                                               |-|
+| NEO                                                               | `Bip44Coins.NEO`                                                                                                         |-|
+| OKEx Chain (Cosmos address)                                       | `Bip44Coins.OKEX_CHAIN_ATOM`                                                                                             |-|
+| OKEx Chain (Ethereum address)                                     | `Bip44Coins.OKEX_CHAIN_ETH`                                                                                              |-|
+| OKEx Chain (Old Cosmos address before mainnet upgrade)            | `Bip44Coins.OKEX_CHAIN_ATOM_OLD`                                                                                         |-|
+| Ontology                                                          | `Bip44Coins.ONTOLOGY`                                                                                                    |-|
+| Osmosis                                                           | `Bip44Coins.OSMOSIS`                                                                                                     |-|
+| Pi Network                                                        | `Bip44Coins.PI_NETWORK`                                                                                                  |-|
+| Polkadot (ed25519 SLIP-0010)                                      | `Bip44Coins.POLKADOT_ED25519_SLIP`                                                                                       |-|
+| Polygon                                                           | `Bip44Coins.POLYGON`                                                                                                     |-|
+| Ripple                                                            | `Bip44Coins.RIPPLE`                                                                                                      |-|
+| Secret Network (old path)                                         | `Bip44Coins.SECRET_NETWORK_OLD`                                                                                          |-|
+| Secret Network (new path)                                         | `Bip44Coins.SECRET_NETWORK_NEW`                                                                                          |-|
+| Solana                                                            | `Bip44Coins.SOLANA`                                                                                                      |-|
+| Stellar                                                           | `Bip44Coins.STELLAR`                                                                                                     |-|
+| Terra                                                             | `Bip44Coins.TERRA`                                                                                                       |-|
+| Tezos                                                             | `Bip44Coins.TEZOS`                                                                                                       |-|
+| Theta Network                                                     | `Bip44Coins.THETA`                                                                                                       |-|
+| Tron                                                              | `Bip44Coins.TRON`                                                                                                        |-|
+| VeChain                                                           | `Bip44Coins.VECHAIN`                                                                                                     |-|
+| Verge                                                             | `Bip44Coins.VERGE`                                                                                                       |-|
+| Zcash                                                             | `Bip44Coins.ZCASH`                                                                                                       |`Bip44Coins.ZCASH_TESTNET`|
+| Zilliqa                                                           | `Bip44Coins.ZILLIQA`                                                                                                     |-|
 
 The code is structured so that it can be easily extended with other coins if needed (provided that the coin elliptic curve is supported).
 

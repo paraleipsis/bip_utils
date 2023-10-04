@@ -43,6 +43,7 @@ class Slip173:
     ELROND: str = "erd"
     HARMONY_ONE: str = "one"
     INJECTIVE: str = "inj"
+    CANTO: str = "canto"
     IRIS_NETWORK: str = "iaa"
     KAVA: str = "kava"
     LITECOIN_MAINNET: str = "ltc"

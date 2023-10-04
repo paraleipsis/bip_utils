@@ -470,6 +470,14 @@ class CoinsConf:
         },
     )
 
+    # Configuration for Canto
+    Canto: CoinConf = CoinConf(
+        coin_name=CoinNames("Canto", "CANTO"),
+        params={
+            "addr_hrp": Slip173.CANTO,
+        },
+    )
+
     # Configuration for IRISnet
     IrisNet: CoinConf = CoinConf(
         coin_name=CoinNames("IRIS Network", "IRIS"),

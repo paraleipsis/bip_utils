@@ -22,7 +22,7 @@ from bip_utils.addr import (
     SubstrateSr25519AddrEncoder, TrxAddr, TrxAddrDecoder, TrxAddrEncoder, XlmAddr, XlmAddrDecoder, XlmAddrEncoder,
     XlmAddrTypes, XmrAddr, XmrAddrDecoder, XmrAddrEncoder, XmrIntegratedAddr, XmrIntegratedAddrDecoder,
     XmrIntegratedAddrEncoder, XrpAddr, XrpAddrDecoder, XrpAddrEncoder, XtzAddr, XtzAddrDecoder, XtzAddrEncoder,
-    XtzAddrPrefixes, ZilAddr, ZilAddrDecoder, ZilAddrEncoder
+    XtzAddrPrefixes, ZilAddr, ZilAddrDecoder, ZilAddrEncoder, CantoAddr, CantoAddrDecoder, CantoAddrEncoder
 )
 
 # Algorand mnemonic
