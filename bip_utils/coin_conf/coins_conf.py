@@ -340,6 +340,13 @@ class CoinsConf:
         },
     )
 
+    Decentr: CoinConf = CoinConf(
+        coin_name=CoinNames("Decentr", "DECENTR"),
+        params={
+            "addr_hrp": Slip173.DECENTR,
+        },
+    )
+
     # Configuration for eCash main net
     EcashMainNet: CoinConf = CoinConf(
         coin_name=CoinNames("eCash", "XEC"),

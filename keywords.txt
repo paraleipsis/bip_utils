@@ -55,6 +55,7 @@ certik
 cosmos
 dash
 dogecoin
+decentr
 ecash
 elrond
 eos

@@ -53,6 +53,7 @@ class Bip44Coins(BipCoins):
     COSMOS = auto()
     DASH = auto()
     DOGECOIN = auto()
+    DECENTR = auto()
     ECASH = auto()
     ELROND = auto()
     EOS = auto()

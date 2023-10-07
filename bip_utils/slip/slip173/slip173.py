@@ -40,6 +40,7 @@ class Slip173:
     CERTIK: str = "certik"
     CHIHUAHUA: str = "chihuahua"
     COSMOS: str = "cosmos"
+    DECENTR: str = "decentr"
     ELROND: str = "erd"
     HARMONY_ONE: str = "one"
     INJECTIVE: str = "inj"
