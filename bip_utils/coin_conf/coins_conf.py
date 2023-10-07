@@ -567,6 +567,13 @@ class CoinsConf:
         },
     )
 
+    Migaloo: CoinConf = CoinConf(
+        coin_name=CoinNames("Migaloo", "MIGALOO"),
+        params={
+            "addr_hrp": Slip173.MIGALOO,
+        },
+    )
+
     # Configuration for Monero main net
     MoneroMainNet: CoinConf = CoinConf(
         coin_name=CoinNames("Monero", "XMR"),

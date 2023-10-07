@@ -87,6 +87,7 @@ class Bip44ConfGetterConst:
         Bip44Coins.KONSTELLATION: Bip44Conf.Konstellation,
         Bip44Coins.LITECOIN: Bip44Conf.LitecoinMainNet,
         Bip44Coins.LITECOIN_TESTNET: Bip44Conf.LitecoinTestNet,
+        Bip44Coins.MIGALOO: Bip44Conf.Migaloo,
         Bip44Coins.MONERO_ED25519_SLIP: Bip44Conf.MoneroEd25519Slip,
         Bip44Coins.MONERO_SECP256K1: Bip44Conf.MoneroSecp256k1,
         Bip44Coins.NANO: Bip44Conf.Nano,

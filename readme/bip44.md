@@ -61,6 +61,7 @@ Supported coins enumerative for BIP-0044:
 | Konstellation                                                     | `Bip44Coins.KONSTELLATION`                                                                                               |-|
 | Kusama (ed25519 SLIP-0010)                                        | `Bip44Coins.KUSAMA_ED25519_SLIP`                                                                                         |-|
 | Litecoin                                                          | `Bip44Coins.LITECOIN`                                                                                                    |`Bip44Coins.LITECOIN_TESTNET`|
+| Migaloo                                                           | `Bip44Coins.MIGALOO`                                                                                                     |-|
 | Monero (ed25519 SLIP-0010, please see the Monero paragraph below) | `Bip44Coins.MONERO_ED25519_SLIP`                                                                                         |-|
 | Monero (secp256k1, please see the Monero paragraph below)         | `Bip44Coins.MONERO_SECP256K1`                                                                                            |-|
 | Nano                                                              | `Bip44Coins.NANO`                                                                                                        |-|

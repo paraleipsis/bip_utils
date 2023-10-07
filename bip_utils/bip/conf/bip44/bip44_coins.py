@@ -76,6 +76,7 @@ class Bip44Coins(BipCoins):
     KUSAMA_ED25519_SLIP = auto()
     KONSTELLATION = auto()
     LITECOIN = auto()
+    MIGALOO = auto()
     MONERO_ED25519_SLIP = auto()
     MONERO_SECP256K1 = auto()
     NANO = auto()

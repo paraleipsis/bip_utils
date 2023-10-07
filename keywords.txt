@@ -75,6 +75,7 @@ juno
 kava
 konstellation
 litecoin
+migaloo
 matic
 monero
 okex chain
