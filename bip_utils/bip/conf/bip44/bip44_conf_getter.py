@@ -81,6 +81,7 @@ class Bip44ConfGetterConst:
         Bip44Coins.CANTO: Bip44Conf.Canto,
         Bip44Coins.COREUM: Bip44Conf.Coreum,
         Bip44Coins.IRIS_NET: Bip44Conf.IrisNet,
+        Bip44Coins.JUNO: Bip44Conf.Juno,
         Bip44Coins.KAVA: Bip44Conf.Kava,
         Bip44Coins.KUSAMA_ED25519_SLIP: Bip44Conf.KusamaEd25519Slip,
         Bip44Coins.KONSTELLATION: Bip44Conf.Konstellation,

@@ -71,6 +71,7 @@ canto
 coreum
 iris
 irisnet
+juno
 kava
 konstellation
 litecoin

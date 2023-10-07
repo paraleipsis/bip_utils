@@ -47,6 +47,7 @@ class Slip173:
     CANTO: str = "canto"
     COREUM: str = "core"
     IRIS_NETWORK: str = "iaa"
+    JUNO: str = "juno"
     KAVA: str = "kava"
     LITECOIN_MAINNET: str = "ltc"
     LITECOIN_TESTNET: str = "tltc"

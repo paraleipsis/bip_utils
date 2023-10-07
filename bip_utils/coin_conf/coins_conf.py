@@ -501,6 +501,13 @@ class CoinsConf:
         },
     )
 
+    Juno: CoinConf = CoinConf(
+        coin_name=CoinNames("Juno", "JUNO"),
+        params={
+            "addr_hrp": Slip173.JUNO,
+        },
+    )
+
     # Configuration for Karura
     Karura: CoinConf = CoinConf(
         coin_name=CoinNames("Karura", "KAR"),
