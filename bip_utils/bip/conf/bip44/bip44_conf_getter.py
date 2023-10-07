@@ -82,6 +82,7 @@ class Bip44ConfGetterConst:
         Bip44Coins.IRIS_NET: Bip44Conf.IrisNet,
         Bip44Coins.KAVA: Bip44Conf.Kava,
         Bip44Coins.KUSAMA_ED25519_SLIP: Bip44Conf.KusamaEd25519Slip,
+        Bip44Coins.KONSTELLATION: Bip44Conf.Konstellation,
         Bip44Coins.LITECOIN: Bip44Conf.LitecoinMainNet,
         Bip44Coins.LITECOIN_TESTNET: Bip44Conf.LitecoinTestNet,
         Bip44Coins.MONERO_ED25519_SLIP: Bip44Conf.MoneroEd25519Slip,

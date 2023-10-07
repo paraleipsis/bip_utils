@@ -72,6 +72,7 @@ class Bip44Coins(BipCoins):
     IRIS_NET = auto()
     KAVA = auto()
     KUSAMA_ED25519_SLIP = auto()
+    KONSTELLATION = auto()
     LITECOIN = auto()
     MONERO_ED25519_SLIP = auto()
     MONERO_SECP256K1 = auto()

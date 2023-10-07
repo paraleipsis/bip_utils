@@ -54,3 +54,4 @@ class Slip173:
     SECRET_NETWORK: str = "secret"
     TERRA: str = "terra"
     ZILLIQA: str = "zil"
+    KONSTELLATION: str = "darc"

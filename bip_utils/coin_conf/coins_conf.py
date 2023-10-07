@@ -518,6 +518,13 @@ class CoinsConf:
         },
     )
 
+    Konstellation: CoinConf = CoinConf(
+        coin_name=CoinNames("Konstellation", "DARC"),
+        params={
+            "addr_hrp": Slip173.KONSTELLATION,
+        },
+    )
+
     # Configuration for Litecoin main net
     LitecoinMainNet: CoinConf = CoinConf(
         coin_name=CoinNames("Litecoin", "LTC"),

@@ -71,6 +71,7 @@ coreum
 iris
 irisnet
 kava
+konstellation
 litecoin
 matic
 monero

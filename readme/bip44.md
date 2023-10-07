@@ -56,6 +56,7 @@ Supported coins enumerative for BIP-0044:
 | Coreum                                                            | `Bip44Coins.COREUM`                                                                                                      |-|
 | IRIS Network                                                      | `Bip44Coins.IRIS_NET`                                                                                                    |-|
 | Kava                                                              | `Bip44Coins.KAVA`                                                                                                        |-|
+| Konstellation                                                     | `Bip44Coins.KONSTELLATION`                                                                                               |-|
 | Kusama (ed25519 SLIP-0010)                                        | `Bip44Coins.KUSAMA_ED25519_SLIP`                                                                                         |-|
 | Litecoin                                                          | `Bip44Coins.LITECOIN`                                                                                                    |`Bip44Coins.LITECOIN_TESTNET`|
 | Monero (ed25519 SLIP-0010, please see the Monero paragraph below) | `Bip44Coins.MONERO_ED25519_SLIP`                                                                                         |-|
