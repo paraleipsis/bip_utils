@@ -90,6 +90,7 @@ class Bip44ConfGetterConst:
         Bip44Coins.MIGALOO: Bip44Conf.Migaloo,
         Bip44Coins.MONERO_ED25519_SLIP: Bip44Conf.MoneroEd25519Slip,
         Bip44Coins.MONERO_SECP256K1: Bip44Conf.MoneroSecp256k1,
+        Bip44Coins.NOMIC: Bip44Conf.Nomic,
         Bip44Coins.NANO: Bip44Conf.Nano,
         Bip44Coins.NEAR_PROTOCOL: Bip44Conf.NearProtocol,
         Bip44Coins.NEO: Bip44Conf.Neo,

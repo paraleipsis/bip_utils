@@ -52,6 +52,7 @@ class Slip173:
     LITECOIN_MAINNET: str = "ltc"
     LITECOIN_TESTNET: str = "tltc"
     MIGALOO: str = "migaloo"
+    NOMIC: str = "nomic"
     OKEX_CHAIN: str = "ex"
     OSMOSIS: str = "osmo"
     SECRET_NETWORK: str = "secret"

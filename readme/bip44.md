@@ -64,6 +64,7 @@ Supported coins enumerative for BIP-0044:
 | Migaloo                                                           | `Bip44Coins.MIGALOO`                                                                                                     |-|
 | Monero (ed25519 SLIP-0010, please see the Monero paragraph below) | `Bip44Coins.MONERO_ED25519_SLIP`                                                                                         |-|
 | Monero (secp256k1, please see the Monero paragraph below)         | `Bip44Coins.MONERO_SECP256K1`                                                                                            |-|
+| Nomic                                                             | `Bip44Coins.NOMIC`                                                                                                       |-|
 | Nano                                                              | `Bip44Coins.NANO`                                                                                                        |-|
 | Near Protocol                                                     | `Bip44Coins.NEAR_PROTOCOL`                                                                                               |-|
 | NEO                                                               | `Bip44Coins.NEO`                                                                                                         |-|

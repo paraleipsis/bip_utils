@@ -81,6 +81,7 @@ monero
 okex chain
 ontology
 osmosis
+nomic
 nano
 near
 near protocol

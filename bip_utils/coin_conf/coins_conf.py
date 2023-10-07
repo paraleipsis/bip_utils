@@ -620,6 +620,13 @@ class CoinsConf:
         },
     )
 
+    Nomic: CoinConf = CoinConf(
+        coin_name=CoinNames("Nomic", "NOMIC"),
+        params={
+            "addr_hrp": Slip173.NOMIC,
+        },
+    )
+
     # Configuration for Nano
     Nano: CoinConf = CoinConf(
         coin_name=CoinNames("Nano", "NANO"),
