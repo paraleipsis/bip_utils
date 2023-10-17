@@ -56,6 +56,7 @@ class Slip173:
     NOMIC: str = "nomic"
     OKEX_CHAIN: str = "ex"
     OSMOSIS: str = "osmo"
+    PERSISTENCE: str = "persistence"
     SECRET_NETWORK: str = "secret"
     TERRA: str = "terra"
     ZILLIQA: str = "zil"

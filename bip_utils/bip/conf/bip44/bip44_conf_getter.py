@@ -104,6 +104,7 @@ class Bip44ConfGetterConst:
         Bip44Coins.PI_NETWORK: Bip44Conf.PiNetwork,
         Bip44Coins.POLKADOT_ED25519_SLIP: Bip44Conf.PolkadotEd25519Slip,
         Bip44Coins.POLYGON: Bip44Conf.Polygon,
+        Bip44Coins.PERSISTENCE: Bip44Conf.Persistence,
         Bip44Coins.RIPPLE: Bip44Conf.Ripple,
         Bip44Coins.SECRET_NETWORK_OLD: Bip44Conf.SecretNetworkOld,
         Bip44Coins.SECRET_NETWORK_NEW: Bip44Conf.SecretNetworkNew,

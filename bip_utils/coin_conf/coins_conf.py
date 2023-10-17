@@ -686,6 +686,13 @@ class CoinsConf:
         },
     )
 
+    Persistence: CoinConf = CoinConf(
+        coin_name=CoinNames("Persistence", "PERSISTENCE"),
+        params={
+            "addr_hrp": Slip173.PERSISTENCE,
+        },
+    )
+
     # Configuration for Phala
     Phala: CoinConf = CoinConf(
         coin_name=CoinNames("Phala Network", "PHA"),

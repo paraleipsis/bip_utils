@@ -87,6 +87,7 @@ nano
 near
 near protocol
 neo
+persistence
 pi network
 polygon
 ripple
