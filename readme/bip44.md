@@ -82,6 +82,7 @@ Supported coins enumerative for BIP-0044:
 | Secret Network (old path)                                         | `Bip44Coins.SECRET_NETWORK_OLD`                                                                                          |-|
 | Secret Network (new path)                                         | `Bip44Coins.SECRET_NETWORK_NEW`                                                                                          |-|
 | Solana                                                            | `Bip44Coins.SOLANA`                                                                                                      |-|
+| Shentu                                                            | `Bip44Coins.SHENTU`                                                                                                      |-|
 | Stellar                                                           | `Bip44Coins.STELLAR`                                                                                                     |-|
 | Terra                                                             | `Bip44Coins.TERRA`                                                                                                       |-|
 | Tezos                                                             | `Bip44Coins.TEZOS`                                                                                                       |-|

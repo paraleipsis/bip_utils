@@ -94,6 +94,7 @@ ripple
 secret
 solana
 stellar
+shentu
 substrate
 terra
 tezos

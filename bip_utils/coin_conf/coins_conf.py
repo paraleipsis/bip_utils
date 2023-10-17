@@ -759,6 +759,13 @@ class CoinsConf:
         },
     )
 
+    Shentu: CoinConf = CoinConf(
+        coin_name=CoinNames("Shentu", "SHENTU"),
+        params={
+            "addr_hrp": Slip173.SHENTU,
+        },
+    )
+
     # Configuration for Stafi
     Stafi: CoinConf = CoinConf(
         coin_name=CoinNames("Stafi", "FIS"),

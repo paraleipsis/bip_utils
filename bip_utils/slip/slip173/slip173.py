@@ -58,6 +58,7 @@ class Slip173:
     OSMOSIS: str = "osmo"
     PERSISTENCE: str = "persistence"
     SECRET_NETWORK: str = "secret"
+    SHENTU: str = "shentu"
     TERRA: str = "terra"
     ZILLIQA: str = "zil"
     KONSTELLATION: str = "darc"

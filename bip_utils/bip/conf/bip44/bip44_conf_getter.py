@@ -109,6 +109,7 @@ class Bip44ConfGetterConst:
         Bip44Coins.SECRET_NETWORK_OLD: Bip44Conf.SecretNetworkOld,
         Bip44Coins.SECRET_NETWORK_NEW: Bip44Conf.SecretNetworkNew,
         Bip44Coins.SOLANA: Bip44Conf.Solana,
+        Bip44Coins.SHENTU: Bip44Conf.Shentu,
         Bip44Coins.STELLAR: Bip44Conf.Stellar,
         Bip44Coins.TERRA: Bip44Conf.Terra,
         Bip44Coins.TEZOS: Bip44Conf.Tezos,
