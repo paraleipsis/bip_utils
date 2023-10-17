@@ -780,6 +780,13 @@ class CoinsConf:
         params={},
     )
 
+    Teritori: CoinConf = CoinConf(
+        coin_name=CoinNames("Teritori", "TORI"),
+        params={
+            "addr_hrp": Slip173.TERITORI,
+        },
+    )
+
     # Configuration for Terra
     Terra: CoinConf = CoinConf(
         coin_name=CoinNames("Terra", "LUNA"),

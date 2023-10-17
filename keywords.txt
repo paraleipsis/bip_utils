@@ -96,6 +96,7 @@ solana
 stellar
 shentu
 substrate
+teritori
 terra
 tezos
 theta

@@ -84,6 +84,7 @@ Supported coins enumerative for BIP-0044:
 | Solana                                                            | `Bip44Coins.SOLANA`                                                                                                      |-|
 | Shentu                                                            | `Bip44Coins.SHENTU`                                                                                                      |-|
 | Stellar                                                           | `Bip44Coins.STELLAR`                                                                                                     |-|
+| Teritori                                                          | `Bip44Coins.TERITORI`                                                                                                    |-|
 | Terra                                                             | `Bip44Coins.TERRA`                                                                                                       |-|
 | Tezos                                                             | `Bip44Coins.TEZOS`                                                                                                       |-|
 | Theta Network                                                     | `Bip44Coins.THETA`                                                                                                       |-|

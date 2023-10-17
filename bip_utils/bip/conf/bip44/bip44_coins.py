@@ -101,6 +101,7 @@ class Bip44Coins(BipCoins):
     STELLAR = auto()
     SHENTU = auto()
     TERRA = auto()
+    TERITORI = auto()
     TEZOS = auto()
     THETA = auto()
     TRON = auto()

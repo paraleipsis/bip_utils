@@ -1182,6 +1182,20 @@ class Bip44Conf:
         addr_params={"addr_type": XlmAddrTypes.PUB_KEY},
     )
 
+    Teritori: BipCoinConf = BipCoinConf(
+        coin_names=CoinsConf.Teritori.CoinNames(),
+        coin_idx=Slip44.ATOM,
+        is_testnet=False,
+        def_path=DER_PATH_NON_HARDENED_FULL,
+        key_net_ver=_BIP44_BTC_KEY_NET_VER_MAIN,
+        wif_net_ver=None,
+        bip32_cls=Bip32Slip10Secp256k1,
+        addr_cls=AtomAddrEncoder,
+        addr_params={
+            "hrp": CoinsConf.Teritori.ParamByKey("addr_hrp"),
+        },
+    )
+
     # Configuration for Terra
     Terra: BipCoinConf = BipCoinConf(
         coin_names=CoinsConf.Terra.CoinNames(),
