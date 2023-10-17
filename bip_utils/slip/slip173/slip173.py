@@ -42,6 +42,7 @@ class Slip173:
     COSMOS: str = "cosmos"
     DECENTR: str = "decentr"
     ELROND: str = "erd"
+    FETCHHUB: str = "fetch"
     HARMONY_ONE: str = "one"
     INJECTIVE: str = "inj"
     CANTO: str = "canto"

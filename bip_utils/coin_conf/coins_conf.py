@@ -439,6 +439,13 @@ class CoinsConf:
         },
     )
 
+    FetchHub: CoinConf = CoinConf(
+        coin_name=CoinNames("FetchHub", "FETCH"),
+        params={
+            "addr_hrp": Slip173.FETCHHUB,
+        },
+    )
+
     # Configuration for generic Substrate coin
     GenericSubstrate: CoinConf = CoinConf(
         coin_name=CoinNames("Generic Substrate", ""),

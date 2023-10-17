@@ -62,6 +62,7 @@ class Bip44Coins(BipCoins):
     ETHEREUM_CLASSIC = auto()
     FANTOM_OPERA = auto()
     FILECOIN = auto()
+    FETCHHUB = auto()
     HARMONY_ONE_ATOM = auto()
     HARMONY_ONE_ETH = auto()
     HARMONY_ONE_METAMASK = auto()

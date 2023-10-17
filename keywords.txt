@@ -63,6 +63,7 @@ ethereum
 ethereum classic
 fantom opera
 filecoin
+fetchhub
 harmony one
 huobi chain
 icon
