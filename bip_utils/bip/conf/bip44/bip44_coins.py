@@ -100,6 +100,7 @@ class Bip44Coins(BipCoins):
     SOLANA = auto()
     STELLAR = auto()
     SHENTU = auto()
+    SIFCHAIN = auto()
     TERRA = auto()
     TERITORI = auto()
     TEZOS = auto()

@@ -780,6 +780,13 @@ class CoinsConf:
         params={},
     )
 
+    Sifchain: CoinConf = CoinConf(
+        coin_name=CoinNames("Sifchain", "SIF"),
+        params={
+            "addr_hrp": Slip173.SIFCHAIN,
+        },
+    )
+
     Teritori: CoinConf = CoinConf(
         coin_name=CoinNames("Teritori", "TORI"),
         params={

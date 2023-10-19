@@ -111,6 +111,7 @@ class Bip44ConfGetterConst:
         Bip44Coins.SOLANA: Bip44Conf.Solana,
         Bip44Coins.SHENTU: Bip44Conf.Shentu,
         Bip44Coins.STELLAR: Bip44Conf.Stellar,
+        Bip44Coins.SIFCHAIN: Bip44Conf.Sifchain,
         Bip44Coins.TERITORI: Bip44Conf.Teritori,
         Bip44Coins.TERRA: Bip44Conf.Terra,
         Bip44Coins.TEZOS: Bip44Conf.Tezos,

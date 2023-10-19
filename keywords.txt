@@ -95,6 +95,7 @@ secret
 solana
 stellar
 shentu
+sifchain
 substrate
 teritori
 terra

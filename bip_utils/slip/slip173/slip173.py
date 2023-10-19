@@ -59,6 +59,7 @@ class Slip173:
     PERSISTENCE: str = "persistence"
     SECRET_NETWORK: str = "secret"
     SHENTU: str = "shentu"
+    SIFCHAIN: str = "sif"
     TERITORI: str = "tori"
     TERRA: str = "terra"
     ZILLIQA: str = "zil"
