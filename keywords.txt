@@ -87,6 +87,7 @@ nano
 near
 near protocol
 neo
+panacea
 persistence
 pi network
 polygon

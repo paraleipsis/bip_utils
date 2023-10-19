@@ -729,6 +729,13 @@ class CoinsConf:
         params={},
     )
 
+    Panacea: CoinConf = CoinConf(
+        coin_name=CoinNames("Panacea", "MED"),
+        params={
+            "addr_hrp": Slip173.PANACEA,
+        },
+    )
+
     # Configuration for Ripple
     Ripple: CoinConf = CoinConf(
         coin_name=CoinNames("Ripple", "XRP"),

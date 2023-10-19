@@ -54,6 +54,7 @@ class Slip44:
     ZILLIQA: int = 313
     TERRA: int = 330
     POLKADOT: int = 354
+    PANACEA: int = 371
     NEAR_PROTOCOL: int = 397
     ERGO: int = 429
     KUSAMA: int = 434

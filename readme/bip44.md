@@ -78,6 +78,7 @@ Supported coins enumerative for BIP-0044:
 | Pi Network                                                        | `Bip44Coins.PI_NETWORK`                                                                                                  |-|
 | Polkadot (ed25519 SLIP-0010)                                      | `Bip44Coins.POLKADOT_ED25519_SLIP`                                                                                       |-|
 | Polygon                                                           | `Bip44Coins.POLYGON`                                                                                                     |-|
+| Panacea                                                           | `Bip44Coins.PANACEA`                                                                                                     |-|
 | Ripple                                                            | `Bip44Coins.RIPPLE`                                                                                                      |-|
 | Secret Network (old path)                                         | `Bip44Coins.SECRET_NETWORK_OLD`                                                                                          |-|
 | Secret Network (new path)                                         | `Bip44Coins.SECRET_NETWORK_NEW`                                                                                          |-|
