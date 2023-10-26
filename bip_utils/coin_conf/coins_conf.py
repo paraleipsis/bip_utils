@@ -78,6 +78,13 @@ class CoinsConf:
         },
     )
 
+    Assetmantle: CoinConf = CoinConf(
+        coin_name=CoinNames("Assetmantle", "MNTL"),
+        params={
+            "addr_hrp": Slip173.ASSETMANTLE,
+        },
+    )
+
     # Configuration for Avax C-Chain
     AvaxCChain: CoinConf = CoinConf(
         coin_name=CoinNames("Avax C-Chain", "AVAX"),
@@ -244,6 +251,13 @@ class CoinsConf:
         },
     )
 
+    Bitsong: CoinConf = CoinConf(
+        coin_name=CoinNames("Bitsong", "BTSG"),
+        params={
+            "addr_hrp": Slip173.BITSONG,
+        },
+    )
+
     # Configuration for Cardano main net
     CardanoMainNet: CoinConf = CoinConf(
         coin_name=CoinNames("Cardano", "ADA"),
@@ -284,6 +298,13 @@ class CoinsConf:
         },
     )
 
+    Cheqd: CoinConf = CoinConf(
+        coin_name=CoinNames("Cheqd", "CHEQ"),
+        params={
+            "addr_hrp": Slip173.CHEQD,
+        },
+    )
+
     # Configuration for Chihuahua
     Chihuahua: CoinConf = CoinConf(
         coin_name=CoinNames("Chihuahua", "HUAHUA"),
@@ -297,6 +318,13 @@ class CoinsConf:
         coin_name=CoinNames("Cosmos", "ATOM"),
         params={
             "addr_hrp": Slip173.COSMOS,
+        },
+    )
+
+    Comdex: CoinConf = CoinConf(
+        coin_name=CoinNames("Comdex", "CMDX"),
+        params={
+            "addr_hrp": Slip173.COMDEX,
         },
     )
 
@@ -344,6 +372,13 @@ class CoinsConf:
         coin_name=CoinNames("Decentr", "DECENTR"),
         params={
             "addr_hrp": Slip173.DECENTR,
+        },
+    )
+
+    Desmos: CoinConf = CoinConf(
+        coin_name=CoinNames("Desmos", "DSM"),
+        params={
+            "addr_hrp": Slip173.DESMOS,
         },
     )
 
@@ -446,6 +481,13 @@ class CoinsConf:
         },
     )
 
+    GravityBridge: CoinConf = CoinConf(
+        coin_name=CoinNames("GravityBridge", "GRAV"),
+        params={
+            "addr_hrp": Slip173.GRAVITYBRIDGE,
+        },
+    )
+
     # Configuration for generic Substrate coin
     GenericSubstrate: CoinConf = CoinConf(
         coin_name=CoinNames("Generic Substrate", ""),
@@ -500,6 +542,27 @@ class CoinsConf:
         },
     )
 
+    Composable: CoinConf = CoinConf(
+        coin_name=CoinNames("Composable", "PICA"),
+        params={
+            "addr_hrp": Slip173.COMPOSABLE,
+        },
+    )
+
+    Crescent: CoinConf = CoinConf(
+        coin_name=CoinNames("Crescent", "CRE"),
+        params={
+            "addr_hrp": Slip173.CRESCENT,
+        },
+    )
+
+    ImpactHub: CoinConf = CoinConf(
+        coin_name=CoinNames("ImpactHub", "IXO"),
+        params={
+            "addr_hrp": Slip173.IMPACTHUB,
+        },
+    )
+
     # Configuration for IRISnet
     IrisNet: CoinConf = CoinConf(
         coin_name=CoinNames("IRIS Network", "IRIS"),
@@ -512,6 +575,13 @@ class CoinsConf:
         coin_name=CoinNames("Juno", "JUNO"),
         params={
             "addr_hrp": Slip173.JUNO,
+        },
+    )
+
+    Jackal: CoinConf = CoinConf(
+        coin_name=CoinNames("Jackal", "JKL"),
+        params={
+            "addr_hrp": Slip173.JACKAL,
         },
     )
 
@@ -546,6 +616,13 @@ class CoinsConf:
         },
     )
 
+    Kichain: CoinConf = CoinConf(
+        coin_name=CoinNames("Kichain", "XKI"),
+        params={
+            "addr_hrp": Slip173.KICHAIN,
+        },
+    )
+
     # Configuration for Litecoin main net
     LitecoinMainNet: CoinConf = CoinConf(
         coin_name=CoinNames("Litecoin", "LTC"),
@@ -571,6 +648,27 @@ class CoinsConf:
             "p2wpkh_hrp": Slip173.LITECOIN_TESTNET,
             "p2wpkh_wit_ver": _BTC_P2WPKH_WIT_VER_TN,
             "wif_net_ver": _BTC_WIF_NET_VER_TN,
+        },
+    )
+
+    Likecoin: CoinConf = CoinConf(
+        coin_name=CoinNames("Likecoin", "LIKE"),
+        params={
+            "addr_hrp": Slip173.LIKECOIN,
+        },
+    )
+
+    LumNetwork: CoinConf = CoinConf(
+        coin_name=CoinNames("LumNetwork", "LUM"),
+        params={
+            "addr_hrp": Slip173.LUMNETWORK,
+        },
+    )
+
+    Meme: CoinConf = CoinConf(
+        coin_name=CoinNames("Meme", "MEME"),
+        params={
+            "addr_hrp": Slip173.MEME,
         },
     )
 
@@ -631,6 +729,13 @@ class CoinsConf:
         coin_name=CoinNames("Nomic", "NOMIC"),
         params={
             "addr_hrp": Slip173.NOMIC,
+        },
+    )
+
+    Nolus: CoinConf = CoinConf(
+        coin_name=CoinNames("Nolus", "NLS"),
+        params={
+            "addr_hrp": Slip173.NOLUS,
         },
     )
 
@@ -736,6 +841,20 @@ class CoinsConf:
         },
     )
 
+    Rebus: CoinConf = CoinConf(
+        coin_name=CoinNames("Rebus", "REBUS"),
+        params={
+            "addr_hrp": Slip173.REBUS,
+        },
+    )
+
+    Rizon: CoinConf = CoinConf(
+        coin_name=CoinNames("Rizon", "ATOLO"),
+        params={
+            "addr_hrp": Slip173.RIZON,
+        },
+    )
+
     # Configuration for Ripple
     Ripple: CoinConf = CoinConf(
         coin_name=CoinNames("Ripple", "XRP"),
@@ -752,6 +871,13 @@ class CoinsConf:
         },
     )
 
+    Sentinel: CoinConf = CoinConf(
+        coin_name=CoinNames("Sentinel", "DVPN"),
+        params={
+            "addr_hrp": Slip173.SENTINEL,
+        },
+    )
+
     # Configuration for Solana
     Solana: CoinConf = CoinConf(
         coin_name=CoinNames("Solana", "SOL"),
@@ -763,6 +889,13 @@ class CoinsConf:
         coin_name=CoinNames("Sora", "XOR"),
         params={
             "addr_ss58_format": 69,
+        },
+    )
+
+    Sommelier: CoinConf = CoinConf(
+        coin_name=CoinNames("Sommelier", "SOMM"),
+        params={
+            "addr_hrp": Slip173.SOMMELIER,
         },
     )
 
@@ -791,6 +924,20 @@ class CoinsConf:
         coin_name=CoinNames("Sifchain", "SIF"),
         params={
             "addr_hrp": Slip173.SIFCHAIN,
+        },
+    )
+
+    Stargaze: CoinConf = CoinConf(
+        coin_name=CoinNames("Stargaze", "STARS"),
+        params={
+            "addr_hrp": Slip173.STARGAZE,
+        },
+    )
+
+    Stride: CoinConf = CoinConf(
+        coin_name=CoinNames("Stride", "STRD"),
+        params={
+            "addr_hrp": Slip173.STRIDE,
         },
     )
 
@@ -829,6 +976,13 @@ class CoinsConf:
         },
     )
 
+    Umee: CoinConf = CoinConf(
+        coin_name=CoinNames("Umee", "UMEE"),
+        params={
+            "addr_hrp": Slip173.UMEE,
+        },
+    )
+
     # Configuration for VeChain
     VeChain: CoinConf = CoinConf(
         coin_name=CoinNames("VeChain", "VET"),
@@ -841,6 +995,13 @@ class CoinsConf:
         params={
             "p2pkh_net_ver": b"\x1e",
             "wif_net_ver": b"\x9e",
+        },
+    )
+
+    Vidulum: CoinConf = CoinConf(
+        coin_name=CoinNames("Vidulum", "VDL"),
+        params={
+            "addr_hrp": Slip173.VIDULUM,
         },
     )
 

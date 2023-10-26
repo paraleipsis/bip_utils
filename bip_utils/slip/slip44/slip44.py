@@ -54,6 +54,7 @@ class Slip44:
     ZILLIQA: int = 313
     TERRA: int = 330
     POLKADOT: int = 354
+    VIDULUM: int = 370
     PANACEA: int = 371
     NEAR_PROTOCOL: int = 397
     ERGO: int = 429
@@ -67,8 +68,11 @@ class Slip44:
     SECRET_NETWORK: int = 529
     NINE_CHRONICLES: int = 567
     APTOS: int = 637
+    BITSONG: int = 639
     BINANCE_CHAIN: int = 714
     VECHAIN: int = 818
+    DESMOS: int = 852
+    LUMNETWORK: int = 880
     NEO: int = 888
     COREUM: int = 990
     OKEX_CHAIN: int = 996

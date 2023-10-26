@@ -37,6 +37,7 @@ akash
 algorand
 aptos
 atom
+assetmantle
 avalanche
 avax
 axelar
@@ -47,15 +48,19 @@ bitcoin
 bitcoin cash
 bitcoinsv
 bnb
+bitsong
 cardano
 cardano-byron
 cardano-shelley
 celo
 certik
 cosmos
+comdex
+cheqd
 dash
 dogecoin
 decentr
+desmos
 ecash
 elrond
 eos
@@ -64,18 +69,27 @@ ethereum classic
 fantom opera
 filecoin
 fetchhub
+gravitybridge
 harmony one
 huobi chain
 icon
 injective
 canto
 coreum
+composable
+crescent
+impacthub
 iris
 irisnet
+jackal
 juno
 kava
+kichain
 konstellation
 litecoin
+likecoin
+lumnetwork
+meme
 migaloo
 matic
 monero
@@ -83,6 +97,7 @@ okex chain
 ontology
 osmosis
 nomic
+nolus
 nano
 near
 near protocol
@@ -91,20 +106,28 @@ panacea
 persistence
 pi network
 polygon
+rebus
+rizon
 ripple
 secret
+sentinel
 solana
+sommelier
 stellar
+stride
 shentu
 sifchain
 substrate
+stargaze
 teritori
 terra
 tezos
 theta
 tron
+umee
 vechain
 verge
+vidulum
 zcash
 zilliqa
 

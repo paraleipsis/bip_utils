@@ -92,6 +92,20 @@ class Bip44Conf:
         addr_params={},
     )
 
+    Assetmantle: BipCoinConf = BipCoinConf(
+        coin_names=CoinsConf.Assetmantle.CoinNames(),
+        coin_idx=Slip44.ATOM,
+        is_testnet=False,
+        def_path=DER_PATH_NON_HARDENED_FULL,
+        key_net_ver=_BIP44_BTC_KEY_NET_VER_MAIN,
+        wif_net_ver=None,
+        bip32_cls=Bip32Slip10Secp256k1,
+        addr_cls=AtomAddrEncoder,
+        addr_params={
+            "hrp": CoinsConf.Assetmantle.ParamByKey("addr_hrp"),
+        },
+    )
+
     # Configuration for Avax C-Chain
     AvaxCChain: BipCoinConf = BipCoinConf(
         coin_names=CoinsConf.AvaxCChain.CoinNames(),
@@ -330,6 +344,20 @@ class Bip44Conf:
         },
     )
 
+    Bitsong: BipCoinConf = BipCoinConf(
+        coin_names=CoinsConf.Bitsong.CoinNames(),
+        coin_idx=Slip44.BITSONG,
+        is_testnet=False,
+        def_path=DER_PATH_NON_HARDENED_FULL,
+        key_net_ver=_BIP44_BTC_KEY_NET_VER_MAIN,
+        wif_net_ver=None,
+        bip32_cls=Bip32Slip10Secp256k1,
+        addr_cls=AtomAddrEncoder,
+        addr_params={
+            "hrp": CoinsConf.Bitsong.ParamByKey("addr_hrp"),
+        },
+    )
+
     # Configuration for Cardano Byron (Icarus)
     CardanoByronIcarus: BipCoinConf = BipCoinConf(
         coin_names=CoinsConf.CardanoMainNet.CoinNames(),
@@ -387,6 +415,20 @@ class Bip44Conf:
         },
     )
 
+    Cheqd: BipCoinConf = BipCoinConf(
+        coin_names=CoinsConf.Cheqd.CoinNames(),
+        coin_idx=Slip44.ATOM,
+        is_testnet=False,
+        def_path=DER_PATH_NON_HARDENED_FULL,
+        key_net_ver=_BIP44_BTC_KEY_NET_VER_MAIN,
+        wif_net_ver=None,
+        bip32_cls=Bip32Slip10Secp256k1,
+        addr_cls=AtomAddrEncoder,
+        addr_params={
+            "hrp": CoinsConf.Cheqd.ParamByKey("addr_hrp"),
+        },
+    )
+
     # Configuration for Chihuahua
     Chihuahua: BipCoinConf = BipCoinConf(
         coin_names=CoinsConf.Chihuahua.CoinNames(),
@@ -414,6 +456,20 @@ class Bip44Conf:
         addr_cls=AtomAddrEncoder,
         addr_params={
             "hrp": CoinsConf.Cosmos.ParamByKey("addr_hrp"),
+        },
+    )
+
+    Comdex: BipCoinConf = BipCoinConf(
+        coin_names=CoinsConf.Comdex.CoinNames(),
+        coin_idx=Slip44.ATOM,
+        is_testnet=False,
+        def_path=DER_PATH_NON_HARDENED_FULL,
+        key_net_ver=_BIP44_BTC_KEY_NET_VER_MAIN,
+        wif_net_ver=None,
+        bip32_cls=Bip32Slip10Secp256k1,
+        addr_cls=AtomAddrEncoder,
+        addr_params={
+            "hrp": CoinsConf.Comdex.ParamByKey("addr_hrp"),
         },
     )
 
@@ -457,6 +513,20 @@ class Bip44Conf:
         addr_cls=AtomAddrEncoder,
         addr_params={
             "hrp": CoinsConf.Decentr.ParamByKey("addr_hrp"),
+        },
+    )
+
+    Desmos: BipCoinConf = BipCoinConf(
+        coin_names=CoinsConf.Desmos.CoinNames(),
+        coin_idx=Slip44.DESMOS,
+        is_testnet=False,
+        def_path=DER_PATH_NON_HARDENED_FULL,
+        key_net_ver=_BIP44_BTC_KEY_NET_VER_MAIN,
+        wif_net_ver=None,
+        bip32_cls=Bip32Slip10Secp256k1,
+        addr_cls=AtomAddrEncoder,
+        addr_params={
+            "hrp": CoinsConf.Desmos.ParamByKey("addr_hrp"),
         },
     )
 
@@ -655,6 +725,20 @@ class Bip44Conf:
         },
     )
 
+    GravityBridge: BipCoinConf = BipCoinConf(
+        coin_names=CoinsConf.GravityBridge.CoinNames(),
+        coin_idx=Slip44.ATOM,
+        is_testnet=False,
+        def_path=DER_PATH_NON_HARDENED_FULL,
+        key_net_ver=_BIP44_BTC_KEY_NET_VER_MAIN,
+        wif_net_ver=None,
+        bip32_cls=Bip32Slip10Secp256k1,
+        addr_cls=AtomAddrEncoder,
+        addr_params={
+            "hrp": CoinsConf.GravityBridge.ParamByKey("addr_hrp"),
+        },
+    )
+
     # Configuration for Harmony One (Metamask address)
     HarmonyOneMetamask: BipCoinConf = BipCoinConf(
         coin_names=CoinsConf.HarmonyOne.CoinNames(),
@@ -759,6 +843,48 @@ class Bip44Conf:
         }
     )
 
+    Composable: BipCoinConf = BipCoinConf(
+        coin_names=CoinsConf.Composable.CoinNames(),
+        coin_idx=Slip44.ATOM,
+        is_testnet=False,
+        def_path=DER_PATH_NON_HARDENED_FULL,
+        key_net_ver=_BIP44_BTC_KEY_NET_VER_MAIN,
+        wif_net_ver=None,
+        bip32_cls=Bip32Slip10Secp256k1,
+        addr_cls=AtomAddrEncoder,
+        addr_params={
+            "hrp": CoinsConf.Composable.ParamByKey("addr_hrp"),
+        },
+    )
+
+    Crescent: BipCoinConf = BipCoinConf(
+        coin_names=CoinsConf.Crescent.CoinNames(),
+        coin_idx=Slip44.ATOM,
+        is_testnet=False,
+        def_path=DER_PATH_NON_HARDENED_FULL,
+        key_net_ver=_BIP44_BTC_KEY_NET_VER_MAIN,
+        wif_net_ver=None,
+        bip32_cls=Bip32Slip10Secp256k1,
+        addr_cls=AtomAddrEncoder,
+        addr_params={
+            "hrp": CoinsConf.Crescent.ParamByKey("addr_hrp"),
+        },
+    )
+
+    ImpactHub: BipCoinConf = BipCoinConf(
+        coin_names=CoinsConf.ImpactHub.CoinNames(),
+        coin_idx=Slip44.ATOM,
+        is_testnet=False,
+        def_path=DER_PATH_NON_HARDENED_FULL,
+        key_net_ver=_BIP44_BTC_KEY_NET_VER_MAIN,
+        wif_net_ver=None,
+        bip32_cls=Bip32Slip10Secp256k1,
+        addr_cls=AtomAddrEncoder,
+        addr_params={
+            "hrp": CoinsConf.ImpactHub.ParamByKey("addr_hrp"),
+        },
+    )
+
     # Configuration for IRISnet
     IrisNet: BipCoinConf = BipCoinConf(
         coin_names=CoinsConf.IrisNet.CoinNames(),
@@ -785,6 +911,20 @@ class Bip44Conf:
         addr_cls=AtomAddrEncoder,
         addr_params={
             "hrp": CoinsConf.Juno.ParamByKey("addr_hrp"),
+        },
+    )
+
+    Jackal: BipCoinConf = BipCoinConf(
+        coin_names=CoinsConf.Jackal.CoinNames(),
+        coin_idx=Slip44.ATOM,
+        is_testnet=False,
+        def_path=DER_PATH_NON_HARDENED_FULL,
+        key_net_ver=_BIP44_BTC_KEY_NET_VER_MAIN,
+        wif_net_ver=None,
+        bip32_cls=Bip32Slip10Secp256k1,
+        addr_cls=AtomAddrEncoder,
+        addr_params={
+            "hrp": CoinsConf.Jackal.ParamByKey("addr_hrp"),
         },
     )
 
@@ -832,6 +972,20 @@ class Bip44Conf:
         },
     )
 
+    Kichain: BipCoinConf = BipCoinConf(
+        coin_names=CoinsConf.Kichain.CoinNames(),
+        coin_idx=Slip44.ATOM,
+        is_testnet=False,
+        def_path=DER_PATH_NON_HARDENED_FULL,
+        key_net_ver=_BIP44_BTC_KEY_NET_VER_MAIN,
+        wif_net_ver=None,
+        bip32_cls=Bip32Slip10Secp256k1,
+        addr_cls=AtomAddrEncoder,
+        addr_params={
+            "hrp": CoinsConf.Kichain.ParamByKey("addr_hrp"),
+        },
+    )
+
     # Configuration for Litecoin main net
     LitecoinMainNet: BipLitecoinConf = BipLitecoinConf(
         coin_names=CoinsConf.LitecoinMainNet.CoinNames(),
@@ -865,6 +1019,48 @@ class Bip44Conf:
         addr_params={
             "std_net_ver": CoinsConf.LitecoinTestNet.ParamByKey("p2pkh_std_net_ver"),
             "depr_net_ver": CoinsConf.LitecoinTestNet.ParamByKey("p2pkh_depr_net_ver"),
+        },
+    )
+
+    Likecoin: BipCoinConf = BipCoinConf(
+        coin_names=CoinsConf.Likecoin.CoinNames(),
+        coin_idx=Slip44.ATOM,
+        is_testnet=False,
+        def_path=DER_PATH_NON_HARDENED_FULL,
+        key_net_ver=_BIP44_BTC_KEY_NET_VER_MAIN,
+        wif_net_ver=None,
+        bip32_cls=Bip32Slip10Secp256k1,
+        addr_cls=AtomAddrEncoder,
+        addr_params={
+            "hrp": CoinsConf.Likecoin.ParamByKey("addr_hrp"),
+        },
+    )
+
+    LumNetwork: BipCoinConf = BipCoinConf(
+        coin_names=CoinsConf.LumNetwork.CoinNames(),
+        coin_idx=Slip44.LUMNETWORK,
+        is_testnet=False,
+        def_path=DER_PATH_NON_HARDENED_FULL,
+        key_net_ver=_BIP44_BTC_KEY_NET_VER_MAIN,
+        wif_net_ver=None,
+        bip32_cls=Bip32Slip10Secp256k1,
+        addr_cls=AtomAddrEncoder,
+        addr_params={
+            "hrp": CoinsConf.LumNetwork.ParamByKey("addr_hrp"),
+        },
+    )
+
+    Meme: BipCoinConf = BipCoinConf(
+        coin_names=CoinsConf.Meme.CoinNames(),
+        coin_idx=Slip44.ATOM,
+        is_testnet=False,
+        def_path=DER_PATH_NON_HARDENED_FULL,
+        key_net_ver=_BIP44_BTC_KEY_NET_VER_MAIN,
+        wif_net_ver=None,
+        bip32_cls=Bip32Slip10Secp256k1,
+        addr_cls=AtomAddrEncoder,
+        addr_params={
+            "hrp": CoinsConf.Meme.ParamByKey("addr_hrp"),
         },
     )
 
@@ -919,6 +1115,20 @@ class Bip44Conf:
         addr_cls=AtomAddrEncoder,
         addr_params={
             "hrp": CoinsConf.Nomic.ParamByKey("addr_hrp"),
+        },
+    )
+
+    Nolus: BipCoinConf = BipCoinConf(
+        coin_names=CoinsConf.Nolus.CoinNames(),
+        coin_idx=Slip44.ATOM,
+        is_testnet=False,
+        def_path=DER_PATH_NON_HARDENED_FULL,
+        key_net_ver=_BIP44_BTC_KEY_NET_VER_MAIN,
+        wif_net_ver=None,
+        bip32_cls=Bip32Slip10Secp256k1,
+        addr_cls=AtomAddrEncoder,
+        addr_params={
+            "hrp": CoinsConf.Nolus.ParamByKey("addr_hrp"),
         },
     )
 
@@ -1114,6 +1324,34 @@ class Bip44Conf:
         addr_params={},
     )
 
+    Rebus: BipCoinConf = BipCoinConf(
+        coin_names=CoinsConf.Rebus.CoinNames(),
+        coin_idx=Slip44.ATOM,
+        is_testnet=False,
+        def_path=DER_PATH_NON_HARDENED_FULL,
+        key_net_ver=_BIP44_BTC_KEY_NET_VER_MAIN,
+        wif_net_ver=None,
+        bip32_cls=Bip32Slip10Secp256k1,
+        addr_cls=AtomAddrEncoder,
+        addr_params={
+            "hrp": CoinsConf.Rebus.ParamByKey("addr_hrp"),
+        },
+    )
+
+    Rizon: BipCoinConf = BipCoinConf(
+        coin_names=CoinsConf.Rizon.CoinNames(),
+        coin_idx=Slip44.ATOM,
+        is_testnet=False,
+        def_path=DER_PATH_NON_HARDENED_FULL,
+        key_net_ver=_BIP44_BTC_KEY_NET_VER_MAIN,
+        wif_net_ver=None,
+        bip32_cls=Bip32Slip10Secp256k1,
+        addr_cls=AtomAddrEncoder,
+        addr_params={
+            "hrp": CoinsConf.Rizon.ParamByKey("addr_hrp"),
+        },
+    )
+
     # Configuration for Ripple
     Ripple: BipCoinConf = BipCoinConf(
         coin_names=CoinsConf.Ripple.CoinNames(),
@@ -1156,6 +1394,20 @@ class Bip44Conf:
         },
     )
 
+    Sentinel: BipCoinConf = BipCoinConf(
+        coin_names=CoinsConf.Sentinel.CoinNames(),
+        coin_idx=Slip44.ATOM,
+        is_testnet=False,
+        def_path=DER_PATH_NON_HARDENED_FULL,
+        key_net_ver=_BIP44_BTC_KEY_NET_VER_MAIN,
+        wif_net_ver=None,
+        bip32_cls=Bip32Slip10Secp256k1,
+        addr_cls=AtomAddrEncoder,
+        addr_params={
+            "hrp": CoinsConf.Sentinel.ParamByKey("addr_hrp"),
+        },
+    )
+
     Shentu: BipCoinConf = BipCoinConf(
         coin_names=CoinsConf.Shentu.CoinNames(),
         coin_idx=Slip44.ATOM,
@@ -1183,6 +1435,20 @@ class Bip44Conf:
         addr_params={},
     )
 
+    Sommelier: BipCoinConf = BipCoinConf(
+        coin_names=CoinsConf.Sommelier.CoinNames(),
+        coin_idx=Slip44.ATOM,
+        is_testnet=False,
+        def_path=DER_PATH_NON_HARDENED_FULL,
+        key_net_ver=_BIP44_BTC_KEY_NET_VER_MAIN,
+        wif_net_ver=None,
+        bip32_cls=Bip32Slip10Secp256k1,
+        addr_cls=AtomAddrEncoder,
+        addr_params={
+            "hrp": CoinsConf.Sommelier.ParamByKey("addr_hrp"),
+        },
+    )
+
     # Configuration for Stellar
     Stellar: BipCoinConf = BipCoinConf(
         coin_names=CoinsConf.Stellar.CoinNames(),
@@ -1196,6 +1462,20 @@ class Bip44Conf:
         addr_params={"addr_type": XlmAddrTypes.PUB_KEY},
     )
 
+    Stride: BipCoinConf = BipCoinConf(
+        coin_names=CoinsConf.Stride.CoinNames(),
+        coin_idx=Slip44.ATOM,
+        is_testnet=False,
+        def_path=DER_PATH_NON_HARDENED_FULL,
+        key_net_ver=_BIP44_BTC_KEY_NET_VER_MAIN,
+        wif_net_ver=None,
+        bip32_cls=Bip32Slip10Secp256k1,
+        addr_cls=AtomAddrEncoder,
+        addr_params={
+            "hrp": CoinsConf.Stride.ParamByKey("addr_hrp"),
+        },
+    )
+
     Sifchain: BipCoinConf = BipCoinConf(
         coin_names=CoinsConf.Sifchain.CoinNames(),
         coin_idx=Slip44.ATOM,
@@ -1207,6 +1487,20 @@ class Bip44Conf:
         addr_cls=AtomAddrEncoder,
         addr_params={
             "hrp": CoinsConf.Sifchain.ParamByKey("addr_hrp"),
+        },
+    )
+
+    Stargaze: BipCoinConf = BipCoinConf(
+        coin_names=CoinsConf.Stargaze.CoinNames(),
+        coin_idx=Slip44.ATOM,
+        is_testnet=False,
+        def_path=DER_PATH_NON_HARDENED_FULL,
+        key_net_ver=_BIP44_BTC_KEY_NET_VER_MAIN,
+        wif_net_ver=None,
+        bip32_cls=Bip32Slip10Secp256k1,
+        addr_cls=AtomAddrEncoder,
+        addr_params={
+            "hrp": CoinsConf.Stargaze.ParamByKey("addr_hrp"),
         },
     )
 
@@ -1278,6 +1572,20 @@ class Bip44Conf:
         addr_params={},
     )
 
+    Umee: BipCoinConf = BipCoinConf(
+        coin_names=CoinsConf.Umee.CoinNames(),
+        coin_idx=Slip44.ATOM,
+        is_testnet=False,
+        def_path=DER_PATH_NON_HARDENED_FULL,
+        key_net_ver=_BIP44_BTC_KEY_NET_VER_MAIN,
+        wif_net_ver=None,
+        bip32_cls=Bip32Slip10Secp256k1,
+        addr_cls=AtomAddrEncoder,
+        addr_params={
+            "hrp": CoinsConf.Umee.ParamByKey("addr_hrp"),
+        },
+    )
+
     # Configuration for VeChain
     VeChain: BipCoinConf = BipCoinConf(
         coin_names=CoinsConf.VeChain.CoinNames(),
@@ -1303,6 +1611,20 @@ class Bip44Conf:
         addr_cls=P2PKHAddrEncoder,
         addr_params={
             "net_ver": CoinsConf.Verge.ParamByKey("p2pkh_net_ver"),
+        },
+    )
+
+    Vidulum: BipCoinConf = BipCoinConf(
+        coin_names=CoinsConf.Vidulum.CoinNames(),
+        coin_idx=Slip44.VIDULUM,
+        is_testnet=False,
+        def_path=DER_PATH_NON_HARDENED_FULL,
+        key_net_ver=_BIP44_BTC_KEY_NET_VER_MAIN,
+        wif_net_ver=None,
+        bip32_cls=Bip32Slip10Secp256k1,
+        addr_cls=AtomAddrEncoder,
+        addr_params={
+            "hrp": CoinsConf.Vidulum.ParamByKey("addr_hrp"),
         },
     )
 
