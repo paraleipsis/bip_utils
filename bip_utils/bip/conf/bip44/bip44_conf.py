@@ -1038,7 +1038,7 @@ class Bip44Conf:
 
     LumNetwork: BipCoinConf = BipCoinConf(
         coin_names=CoinsConf.LumNetwork.CoinNames(),
-        coin_idx=Slip44.LUMNETWORK,
+        coin_idx=Slip44.ATOM,
         is_testnet=False,
         def_path=DER_PATH_NON_HARDENED_FULL,
         key_net_ver=_BIP44_BTC_KEY_NET_VER_MAIN,
