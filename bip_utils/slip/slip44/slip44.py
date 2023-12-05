@@ -70,6 +70,7 @@ class Slip44:
     APTOS: int = 637
     BITSONG: int = 639
     BINANCE_CHAIN: int = 714
+    PERSISTENCE: int = 750
     VECHAIN: int = 818
     DESMOS: int = 852
     LUMNETWORK: int = 880

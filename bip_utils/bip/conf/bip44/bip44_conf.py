@@ -1271,7 +1271,7 @@ class Bip44Conf:
 
     Persistence: BipCoinConf = BipCoinConf(
         coin_names=CoinsConf.Persistence.CoinNames(),
-        coin_idx=Slip44.ATOM,
+        coin_idx=Slip44.PERSISTENCE,
         is_testnet=False,
         def_path=DER_PATH_NON_HARDENED_FULL,
         key_net_ver=_BIP44_BTC_KEY_NET_VER_MAIN,
