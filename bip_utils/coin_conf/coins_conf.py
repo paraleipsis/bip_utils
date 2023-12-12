@@ -791,7 +791,14 @@ class CoinsConf:
         },
     )
 
-    Persistence: CoinConf = CoinConf(
+    PersistenceOld: CoinConf = CoinConf(
+        coin_name=CoinNames("Persistence", "PERSISTENCE"),
+        params={
+            "addr_hrp": Slip173.PERSISTENCE,
+        },
+    )
+
+    PersistenceNew: CoinConf = CoinConf(
         coin_name=CoinNames("Persistence", "PERSISTENCE"),
         params={
             "addr_hrp": Slip173.PERSISTENCE,
