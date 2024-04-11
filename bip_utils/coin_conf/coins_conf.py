@@ -761,6 +761,13 @@ class CoinsConf:
         },
     )
 
+    Nibiru: CoinConf = CoinConf(
+        coin_name=CoinNames("Nibiru", "NIBI"),
+        params={
+            "addr_hrp": Slip173.NIBIRU,
+        },
+    )
+
     # Configuration for Nine Chronicles Gold
     NineChroniclesGold: CoinConf = CoinConf(
         coin_name=CoinNames("NineChroniclesGold", "NCG"),

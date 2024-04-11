@@ -102,6 +102,7 @@ nano
 near
 near protocol
 neo
+nibiru
 panacea
 persistence
 pi network
