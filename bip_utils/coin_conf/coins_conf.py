@@ -768,6 +768,13 @@ class CoinsConf:
         },
     )
 
+    Neutron: CoinConf = CoinConf(
+        coin_name=CoinNames("Neutron", "NTRN"),
+        params={
+            "addr_hrp": Slip173.NEUTRON,
+        },
+    )
+
     # Configuration for Nine Chronicles Gold
     NineChroniclesGold: CoinConf = CoinConf(
         coin_name=CoinNames("NineChroniclesGold", "NCG"),

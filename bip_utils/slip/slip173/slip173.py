@@ -70,6 +70,7 @@ class Slip173:
     NOMIC: str = "nomic"
     NOLUS: str = "nolus"
     NIBIRU: str = "nibi"
+    NEUTRON: str = "neutron"
     OKEX_CHAIN: str = "ex"
     OSMOSIS: str = "osmo"
     PANACEA: str = "panacea"

@@ -103,6 +103,7 @@ near
 near protocol
 neo
 nibiru
+neutron
 panacea
 persistence
 pi network
